@@ -1,0 +1,33 @@
+USE [HomeDataLog]
+GO
+
+/****** Object:  Table [dbo].[HomeLog]    Script Date: 07/17/2012 00:08:10 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[HomeLog](
+	[pkey] [int] IDENTITY(1,1) NOT NULL,
+	[eDate] [datetime] NULL,
+	[watertop] [decimal](18, 2) NULL,
+	[waterbase] [decimal](18, 2) NULL,
+	[waterpanel] [decimal](18, 2) NULL,
+	[hometemp] [decimal](18, 2) NULL,
+	[mainsv] [decimal](18, 2) NULL,
+	[mainsc] [decimal](18, 2) NULL,
+	[solarv] [decimal](18, 2) NULL,
+	[solarc] [decimal](18, 2) NULL,
+	[batteryv] [decimal](18, 2) NULL,
+	[inverterc] [decimal](18, 2) NULL,
+	[generalc] [decimal](18, 2) NULL,
+	[pumprunning] [tinyint] NULL,
+	[lightir] [decimal](18, 2) NULL,
+	[lightfull] [decimal](18, 2) NULL,
+	[lightlux] [decimal](18, 2) NULL
+) ON [PRIMARY]
+
+GO
+
+

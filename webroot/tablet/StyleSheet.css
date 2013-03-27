@@ -1,0 +1,152 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 14pt;
+    
+}
+
+ p
+        {
+            line-height: 14pt;
+            padding: 0 0 15px 0;
+        }
+
+h1
+{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    font-weight: 300;
+    color: #999;
+    margin: 0 0 20px 0;
+    padding: 20px 0 10px 30px;
+}
+
+        h2
+        {
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 16px 0;
+            padding-top: 20px;
+        }
+         h3
+        {
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            font-size: 16pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 10px 0;
+        }
+          h4
+        {
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            font-size: 13pt;
+            font-weight: 300;
+            color: #999;
+            margin: 0 0 10px 0;
+        }
+a {
+     color: #808080; text-decoration: none;
+      font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+td, th {
+     padding: 4px;
+}
+#header {
+ 
+    height: 66px;
+    }
+#header a{ float: left;
+  color: #808080;
+}
+#header h1 
+
+{
+  float: left;
+   font-size:  22pt; margin:  0 10px 0 0; padding: 20px 0 0 0; font-weight: 300;
+   color: #808080;
+
+}
+a.txt
+{
+    margin: 28px 10px 0 18px;
+  
+     font-size:  22pt;
+     font-weight: 300;
+}
+a.txtactive
+{
+    margin: 28px 10px 0 18px;
+  
+     font-size:  22pt;
+     font-weight: 600;
+}
+#titletimeholder
+{
+    float: right;
+    font-size:  12pt; 
+    color:#999;
+
+     margin: 18px 10px 0 0;
+}
+#content
+{
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+td {
+             vertical-align: top;
+        }
+        .boxes td {
+            margin:  0 20px 20px 0; text-align: left; width:  20%;
+        }
+        .greenbox {
+             background:  #799458; padding:  10px; color:  #fff;
+        }
+        .bluebox {
+             background:  #9ac4ce; padding:  10px; color:  #fff;
+        }
+        .darkbluebox {
+             background:  #7eb0b9; padding:  10px; color:  #fff;
+        }
+     
+        .boxes td h1 {
+             padding:  10px;color:  #fff; margin:  0; padding:   0 0 10px 0; font-size: 16pt;
+        }
+         .boxes td h3 {
+             padding:  10px;color:  #fff; margin:  0; padding:  0; line-height: 34pt; font-size: 32pt;
+        }
+          .side td h4 {
+             padding:  10px;color:  #fff; margin:  0; padding: 0; font-size: 12pt;
+        }
+          .side td h1 {
+             padding:  10px;color:  #fff; margin:  0; padding:   0 0 10px 0; font-size: 12pt;
+        }
+         .side td h3 {
+             padding:  10px;color:  #fff; margin:  0; padding:  0; line-height: 34pt; font-size: 24pt;
+        }
+          .boxes td h4 {
+             padding:  10px;color:  #fff; margin:  0; padding: 0; font-size: 12pt;
+        }
+        .boxes span {
+            font-size:  50%;
+        }
+        h2 {
+            padding-top:  20px;
+        }
+        h1 span {
+            float:  right; font-size:  18pt; padding:  10px 0 0 0;
+        }
+
+input
+{
+    border: 1px solid #ddd;
+}
